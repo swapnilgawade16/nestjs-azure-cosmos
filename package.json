@@ -1,10 +1,7 @@
 {
-  "name": "@nestjs/azure-cosmos",
+  "name": "nestjs-azure-cosmos",
   "version": "2.3.0",
   "description": "The Azure cosmos db for Nest framework (node.js)",
-  "author": {
-    "name": "Wassim Chegham"
-  },
   "main": "./dist/index.js",
   "license": "MIT",
   "repository": {
