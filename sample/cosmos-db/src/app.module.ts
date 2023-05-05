@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { AzureCosmosDbModule } from '@nestjs/azure-database';
+import { AzureCosmosDbModule } from '@nestjs/azure-cosmos';
 import { ContactModule } from './contact/contact.module';
 
 @Module({
