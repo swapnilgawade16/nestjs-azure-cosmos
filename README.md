@@ -81,7 +81,7 @@ export class EventDTO {
 For instance, the shape of the following entity:
 
 ```typescript
-import { CosmosPartitionKey, CosmosDateTime, Point } from '@nestjs/azure-database';
+import { CosmosPartitionKey, CosmosDateTime, Point } from 'nestjs-azure-database';
 
 @CosmosPartitionKey('type')
 export class Event {
@@ -109,7 +109,7 @@ Will be automatically converted to:
 
 ```typescript
 import { Module } from '@nestjs/common';
-import { AzureCosmosDbModule } from '@nestjs/azure-database';
+import { AzureCosmosDbModule } from 'nestjs-azure-database';
 import { EventController } from './event.controller';
 import { EventService } from './event.service';
 import { Event } from './event.entity';
@@ -141,7 +141,7 @@ $ nest generate service event
 
 ```typescript
 import { Injectable } from '@nestjs/common';
-import { InjectModel } from '@nestjs/azure-database';
+import { InjectModel } from 'nestjs-azure-database';
 import { Event } from './event.entity';
 
 @Injectable()
