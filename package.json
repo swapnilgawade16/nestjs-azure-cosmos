@@ -1,6 +1,6 @@
 {
   "name": "nestjs-azure-cosmos",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "The Azure cosmos db for Nest framework (node.js)",
   "main": "./dist/index.js",
   "license": "MIT",
